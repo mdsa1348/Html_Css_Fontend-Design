@@ -1,0 +1,61 @@
+.body2{
+    margin-top: 16vh;
+    padding-top: 8vh;
+    height: 70vh;
+    background-color: rgb(211, 211, 211);
+    margin-bottom: 5vh;
+}
+.Body2_card-grid {
+    margin: 0 5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 5vw; /* Gap between cards */
+}
+
+.Body2_div {
+    /* background-color: #5c5c5c; */
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: start;
+    height: 50vh;
+}
+.Body2_img{
+    background-color: transparent;
+    padding: 0;
+    height: 100%;
+}
+.Body2_img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+    
+}
+.Body2_div h4{
+    margin: 2vh 0;
+}
+.Body2_div h2{
+    font-size: 3vw;
+    margin: 3vh 0 0  0;
+}
+
+
+.Get_Started{
+    display: block; /* Ensure it behaves as a block-level element */
+
+    margin: 5vh 0;
+    background-color: rgb(142, 117, 84);
+    color: white;
+    padding: 1.5vw 1vw;
+    border-radius: 4px;
+    border: none;
+    transition: .3s ease-in-out;
+  }
+  .Get_Started:hover{
+    
+    background-color: rgb(243, 78, 23);
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    font-size: 1vw;
+  }
